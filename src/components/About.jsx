@@ -1,12 +1,12 @@
 import React from "react";
-import { Tilt } from "react-tilt"; // Changed: Named import instead of default
+import { Tilt } from "react-tilt"; 
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { fadeIn, textVariant } from "../utils/motion"; // ADD THIS LINE
-import { services } from "../constants"; // You'll need this too
-import SectionWrapper from "../hoc/SectionWrapper"; // Changed: Correct import for SectionWrapper
-const ServiceCard = ({ index, title, icon }) => { // Fixed typo: "ServideCard" -> "ServiceCard"
+import { fadeIn, textVariant } from "../utils/motion"; 
+import { services } from "../constants"; 
+import SectionWrapper from "../hoc/SectionWrapper";// Changed: Correct import for SectionWrapper
+const ServiceCard = ({ index, title, icon }) => { 
   return (
     <Tilt className="xs:w-[250px] w-full">
       <motion.div
@@ -47,13 +47,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        A platform that helps creators get paid for what they do best – Post.
-        By leveraging blockchain technology, Post ensures secure and transparent
-        transactions, allowing creators to monetize their content without
-        intermediaries. With features like NFT integration, subscription models,
-        and microtransactions, Post empowers creators to build sustainable
-        income streams while engaging with their audience in innovative ways.
-      </motion.p>
+       
+      </motion.p> We run  performance (pay per view) organic distribution campaigns that helps brands hijack attention on short-form platforms at scale. We help deploy trained creators/clippers to distribute content natively across multiple accounts driving massive reach, traffic, and brand lift through pure organic reach.
+        Think of it as paid distribution for organic content, without ad fatigue or CPM inflation.
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

@@ -1,48 +1,43 @@
 import logo from "./logo.png";
 import backend from "./backend.png";
-import creator from "./creator.png";
+import creators from "./creators.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
-import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
-import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
+import reactjs from "./tech/reactjs.jpg";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
-import meta from "./company/meta.png";
-import perplexity from "./company/perplexity.avif";
-import shopify from "./company/shopify.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import IMG_1 from "./company/IMG_1.png";
+import IMG_2 from "./company/IMG_2.png";
+import IMG_3 from "./company/IMG_3.png";
+import IMG_4 from "./company/IMG_4.png";
+import carrent from "./carrent.jpg";
+import jobit from "./jobit.jpg";
+import tripguide from "./tripguide.jpg";
 
 export {
   logo,
   backend,
-  creator,
+  creators,
   mobile,
   web,
-  github,
   menu,
   close,
-  css,
   docker,
+ IMG_1,
+ IMG_2,
+ IMG_3,
+ IMG_4,
   figma,
-  git,
   html,
   javascript,
   mongodb,
@@ -52,10 +47,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  perplexity,
-  shopify,
-  tesla,
   carrent,
   jobit,
   tripguide,

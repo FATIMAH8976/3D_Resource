@@ -5,6 +5,7 @@ import {ComputersCanvas} from './canvas'
 
 const Hero = () => {
   return (
+  
     
    <section className='relative w-full h-screen mx-auto'>
     <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
@@ -19,7 +20,7 @@ const Hero = () => {
           Meet, the platform controlling the  <span className='text-[#162447]'> Algorithm</span>
         </h1>
         <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-        Empowering Clients to harness the power of algorithms<br className='sm:block hidden'/> with ease and efficiency.
+        Empowering Clients to harness the power of short-form content <br className='sm:block hidden'/> with ease and efficiency.
         </p>
       </div>
         </div>
